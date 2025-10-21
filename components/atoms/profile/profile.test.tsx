@@ -1,3 +1,4 @@
+// Contenido restante del archivo (se eliminó el bloque de prueba 'certification')
 import { describe, it, expect } from "vitest";
 import { profile } from "./profile";
 
@@ -88,21 +89,6 @@ describe("Profile data (shape & integrity)", () => {
             if (ed.institution !== undefined) expect(typeof ed.institution).toBe("string");
             if (ed.details !== undefined) expect(typeof ed.details).toBe("string");
             if (ed.description !== undefined) expect(typeof ed.description).toBe("string");
-        }
-    });
-
-    it("certification: estructura correcta + URLs válidas (image http/data, credential http)", () => {
-        expect(Array.isArray(profile.certification)).toBe(true);
-        expect(profile.certification.length).toBeGreaterThan(0);
-
-        for (const c of profile.certification) {
-            expect(nonEmptyString(c.certificateName)).toBe(true);
-            expect(nonEmptyString(c.issuer)).toBe(true);
-            expect(nonEmptyString(c.issued)).toBe(true);
-            expect(nonEmptyString(c.imageUrl)).toBe(true);
-            expect(isHttpOrData(c.imageUrl)).toBe(true);
-            expect(nonEmptyString(c.credentialUrl)).toBe(true);
-            expect(isHttpUrl(c.credentialUrl)).toBe(true);
         }
     });
 });

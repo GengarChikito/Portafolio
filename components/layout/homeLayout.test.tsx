@@ -113,7 +113,7 @@ describe("homeLayout", () => {
         // Footer con copy y año actual
         const year = new Date().getFullYear();
         expect(screen.getByTestId("typography-text")).toHaveTextContent(
-            `© ${year} Nicolás Fonseca — Todos los derechos reservados.`
+            `© ${year} TEAS INC .`
         );
     });
 

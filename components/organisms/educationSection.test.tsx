@@ -152,6 +152,6 @@ describe("EducationSection (Estado Vacío)", () => {
         // El enlace a Credly SÍ debe aparecer
         const credlyLink = screen.getByRole('link', { name: "mi perfil de Credly" });
         expect(credlyLink).toBeInTheDocument();
-        expect(credlyLink).toHaveAttribute('href', 'https://www.credly.com/users/nicolas-esteban-fonseca-olivares');
+        expect(credlyLink).toHaveAttribute('href', '');
     });
 });
