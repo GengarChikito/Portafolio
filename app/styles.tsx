@@ -28,18 +28,18 @@ export const stylesViolet: Styles = {
         zIndex: 50,
         backdropFilter: "blur(12px)",
         paddingInline: 16,
-        paddingBlock: 12, // AÑADIDO: Padding vertical para el header
-        background: "var(--header-bg, #00000A90)", // Fondo Negro semitransparente
+        paddingBlock: 12,
+        background: "var(--header-bg, #00000A90)",
         boxShadow: "0 4px 15px rgba(167, 0, 255, 0.6)",
         color: "var(--text-color, #FAFAFA)",
     },
 
     // Contenedor Central y Centrado
     container: {
-        maxWidth: 600,
-        margin: "0 auto", // CENTRADO: Asegura que el contenedor se centre
-        paddingInline: 20, // Padding lateral (móviles)
-        paddingBlock: 24, // AÑADIDO: Padding vertical para espacio
+        maxWidth: 1200, // AJUSTADO a 1200 para usar mejor el espacio
+        margin: "0 auto", // CENTRADO: Asegura el centrado horizontal
+        paddingInline: 16, // AJUSTADO: Padding lateral para móviles
+        paddingBlock: 24, // Padding vertical
     },
 
     // Separador de Secciones
@@ -84,7 +84,7 @@ export const stylesLight: Styles = {
         zIndex: 50,
         backdropFilter: "blur(10px)",
         paddingInline: 16,
-        paddingBlock: 12, // AÑADIDO: Padding vertical para el header
+        paddingBlock: 12, // Padding vertical
         background: "var(--header-bg, #111827)", // Negro/Azul oscuro
         boxShadow: "0 2px 10px rgba(255,255,255,0.05)", // Sombra clara en fondo oscuro
         color: "var(--text-color, #FAFAFA)",
@@ -94,8 +94,8 @@ export const stylesLight: Styles = {
     container: {
         maxWidth: 1200,
         margin: "0 auto", // CENTRADO
-        paddingInline: 16,
-        paddingBlock: 24, // AÑADIDO: Padding vertical para espacio
+        paddingInline: 16, // Padding lateral
+        paddingBlock: 24, // Padding vertical
     },
 
     // CAMBIADO: Borde de Sección Oscuro
@@ -125,7 +125,7 @@ export const stylesDark: Styles = {
         zIndex: 50,
         backdropFilter: "blur(10px)",
         paddingInline: 16,
-        paddingBlock: 12, // AÑADIDO: Padding vertical para el header
+        paddingBlock: 12, // Padding vertical
         background: "var(--header-bg, #0F172A)",
         boxShadow: "0 2px 10px rgba(0,0,0,0.4)",
         color: "var(--text-color, #E5E7EB)",
@@ -133,8 +133,8 @@ export const stylesDark: Styles = {
     container: {
         maxWidth: 1200,
         margin: "0 auto", // CENTRADO
-        paddingInline: 16,
-        paddingBlock: 24, // AÑADIDO: Padding vertical para espacio
+        paddingInline: 16, // Padding lateral
+        paddingBlock: 24, // Padding vertical
     },
     section: { padding: "var(--section-pad, 72px 0)", borderTop: "1px solid var(--border-color, #1F2937)" },
     grid: {

@@ -82,7 +82,7 @@ export const profile: Profile = {
                 "un portafolio de lo que hago.",
             tags: ["React", "TypeScript", "Tailwind", "Otra Tecnología"],
             link: "https://github.com/GengarChikito/Portafolio",
-            image: "https://i.pinimg.com/736x/cf/09/58/cf09580a8061d99ce27de5d154790938.jpg",
+            image: "../assets/PAGINA.png",
         },
         // Añade más proyectos aquí...
     ],

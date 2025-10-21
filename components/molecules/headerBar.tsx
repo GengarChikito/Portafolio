@@ -75,16 +75,7 @@ export function HeaderBar({ dark, onToggleDark }: HeaderBarProps) {
                 aria-label="Cambiar tema"
             />
 
-            {/* Botón para mi CV */}
-            <Button
-                size="middle"
-                icon={<FileTextOutlined />}
-                href="https://docs.google.com/document/d/1KSLajagC4F3yaq-9w9qMB9GPWoCWdH4c/edit?usp=sharing&ouid=107969967437438795414&rtpof=true&sd=true"
-                target="_blank"
-                className="site-action"
-            >
-                Currículum
-            </Button>
+
 
             {/* Botón para GitHub */}
             <Button

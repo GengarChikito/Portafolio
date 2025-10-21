@@ -18,8 +18,8 @@ export function SkillPill({ text }: SkillPillProps) {
     const { token } = theme.useToken();
 
     // Saco los colores específicos que quiero del 'token'.
-    // 'colorFillQuaternary' es un color de fondo sutil.
-    const bg = token.colorFillQuaternary;
+    // Usamos colorBgContainer o colorFillQuaternary para el fondo de la burbuja.
+    const bg = token.colorBgContainer || token.colorFillQuaternary;
     // 'colorTextSecondary' es el color de texto secundario (un gris suave).
     const fg = token.colorTextSecondary;
     // 'colorBorderSecondary' es el borde sutil. Si no existe, usa el borde normal.

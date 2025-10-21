@@ -1,6 +1,6 @@
 import { Layout, Typography, ConfigProvider, theme as antdTheme } from "antd";
 import { HeaderBar } from "components/molecules/headerBar";
-import { corporateLightTheme, corporateDarkTheme } from "app/theme";
+import { corporateLightTheme } from "app/theme";
 import { stylesLight, stylesDark } from "app/styles";
 import { useState } from "react";
 
