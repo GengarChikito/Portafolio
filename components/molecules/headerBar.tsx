@@ -81,7 +81,7 @@ export function HeaderBar({ dark, onToggleDark }: HeaderBarProps) {
             <Button
                 size="middle"
                 icon={<GithubOutlined className="brand-icon brand-icon--github" />}
-                href="https://github.com/Excintium"
+                href="https://github.com/GengarChikito"
                 target="_blank"
                 className="site-action site-action--github"
                 aria-label="GitHub"
@@ -93,7 +93,7 @@ export function HeaderBar({ dark, onToggleDark }: HeaderBarProps) {
             <Button
                 size="middle"
                 icon={<LinkedinFilled className="brand-icon brand-icon--linkedin" />}
-                href="https://www.linkedin.com/in/nicol%C3%A1s-fonseca"
+                href="https://www.linkedin.com/in/mathias-cortes-96885a379/"
                 target="_blank"
                 className="site-action site-action--linkedin"
                 aria-label="LinkedIn"
@@ -120,7 +120,7 @@ export function HeaderBar({ dark, onToggleDark }: HeaderBarProps) {
                     gap: 12,
                 }}
             >
-                {/* IZQUIERDA: Mi logo "Excintium" */}
+                {/* IZQUIERDA: Mi logo "Gengar" */}
                 <a
                     href="#inicio"
                     style={{
