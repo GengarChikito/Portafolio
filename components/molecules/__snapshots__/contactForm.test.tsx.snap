@@ -1,0 +1,44 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`contactForm > snapshot del formulario 1`] = `
+<div>
+  <form
+    data-testid="form"
+  >
+    <label
+      data-testid="label-Nombre"
+    >
+      Nombre
+      <input
+        data-testid="input"
+        placeholder="Tu nombre"
+      />
+    </label>
+    <label
+      data-testid="label-Correo"
+    >
+      Correo
+      <input
+        data-testid="input"
+        placeholder="tu@correo.com"
+      />
+    </label>
+    <label
+      data-testid="label-Mensaje"
+    >
+      Mensaje
+      <textarea
+        data-testid="textarea"
+        placeholder="¿En qué puedo ayudarte?"
+        rows="5"
+      />
+    </label>
+    <button
+      data-testid="button"
+      type="submit"
+    >
+      Enviar
+    </button>
+  </form>
+</div>
+`;

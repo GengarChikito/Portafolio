@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`themeSwitch > snapshot 1`] = `
+<div>
+  <div
+    data-testid="tooltip"
+    data-title="Modo oscuro"
+  >
+    <button
+      data-checked="false"
+      data-testid="switch"
+    >
+      <span
+        data-testid="sun-icon"
+      />
+    </button>
+  </div>
+</div>
+`;

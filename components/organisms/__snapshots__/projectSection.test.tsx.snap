@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`projectsSection > snapshot del componente 1`] = `
+<div>
+  <section
+    id="proyectos"
+    style="border: 1px solid purple;"
+  >
+    <div
+      class="container"
+      style="max-width: 1200px;"
+    >
+      <h2
+        data-testid="section-title"
+      >
+        Proyectos
+      </h2>
+      <div
+        class="project-grid"
+      >
+        <div
+          data-testid="project-card"
+        >
+          Proyecto Alpha
+        </div>
+        <div
+          data-testid="project-card"
+        >
+          Proyecto Beta
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

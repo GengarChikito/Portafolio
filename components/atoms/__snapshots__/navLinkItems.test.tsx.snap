@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NavLinkItem > snapshot del componente 1`] = `
+<div>
+  <a
+    href="#about"
+    style="padding-inline: 12px;"
+  >
+    Sobre mí
+  </a>
+</div>
+`;

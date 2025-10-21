@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SectionTitle > snapshot del componente 1`] = `
+<div>
+  <h2
+    style="margin-bottom: 16px; padding-bottom: 6px; border-bottom: 2px solid var(--border-strong, #0048BA);"
+  >
+    Experiencia Profesional
+  </h2>
+</div>
+`;

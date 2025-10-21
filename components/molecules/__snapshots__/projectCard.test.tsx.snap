@@ -1,0 +1,52 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`projectCard > snapshot del componente 1`] = `
+<div>
+  <a
+    href="https://gamezone.vercel.app"
+    rel="noreferrer"
+    target="_blank"
+  >
+    <div
+      class="project-card"
+      data-testid="card"
+      style="border-radius: 16px; border: 1px solid var(--border-color, #E5E7EB);"
+    >
+      <img
+        alt="GameZone"
+        src="https://example.com/gamezone.png"
+      />
+      <div
+        data-testid="meta"
+      >
+        <h3>
+          GameZone
+        </h3>
+        <p>
+          Tienda de videojuegos full responsive.
+        </p>
+      </div>
+      <div
+        data-testid="space"
+        style="margin-top: 12px;"
+      >
+        <span
+          data-testid="tag"
+        >
+          React
+        </span>
+        <span
+          data-testid="tag"
+        >
+          TypeScript
+        </span>
+        <span
+          data-testid="tag"
+        >
+          Ant Design
+        </span>
+      </div>
+    </div>
+  </a>
+</div>
+`;

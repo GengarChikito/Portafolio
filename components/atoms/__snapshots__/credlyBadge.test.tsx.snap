@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CredlyBadge > snapshot básico (estructura estable del output) 1`] = `
+<div>
+  <a
+    href="https://www.credly.com/badges/xyz"
+    rel="noreferrer"
+    style="text-decoration: none;"
+    target="_blank"
+  >
+    <div
+      data-testid="antd-card"
+      style="border-radius: 16px; text-align: center;"
+    >
+      <img
+        alt="Data Visualization Expert"
+        src="https://images.credly.com/badge.png"
+        style="width: 84px; height: 84px; object-fit: contain; margin: 8px auto;"
+      />
+      <h4
+        style="margin: 8px 0px 4px; font-size: 14px; line-height: 1.2;"
+      >
+        Data Visualization Expert
+      </h4>
+      <small
+        style="display: block; color: rgb(136, 136, 136);"
+      >
+        CertiProf
+         · 
+        Mar 2024
+      </small>
+    </div>
+  </a>
+</div>
+`;
